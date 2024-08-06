@@ -9,9 +9,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Adiciona Font Awesome -->
     <style>
         .carousel-item img {
-            width: 1500px; /* Define a largura da imagem */
-            height: 500px; /* Define a altura da imagem */
+            width: 100%; /* Altera para 100% para melhor responsividade */
+            height: auto; /* Muda a altura para auto */
             object-fit: cover; /* Garante que a imagem cubra a área sem distorção */
+        }
+
+        header {
+            padding: 2.5rem 0; /* Ajusta o padding para melhor visualização em mobile */
+        }
+
+        section {
+            padding: 3rem 15px; /* Adiciona padding nas laterais para mobile */
         }
     </style>
 </head>
@@ -64,7 +72,7 @@
         </button>
     </div>
 
-    <header class="bg-dark text-white text-center py-5">
+    <header class="bg-dark text-white text-center">
         <div class="container">
             <h1>Bem-vindo à HiroCut</h1>
             <p class="lead">Transformamos suas ideias em vídeos incríveis!</p>
