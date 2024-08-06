@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiroCut</title>
+    <link rel="icon" href="./assets/logo.png" type="image/png"> <!-- Adiciona o favicon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Adiciona Font Awesome -->
+    <style>
+        .carousel-item img {
+            width: 1500px; /* Define a largura da imagem */
+            height: 500px; /* Define a altura da imagem */
+            object-fit: cover; /* Garante que a imagem cubra a área sem distorção */
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">HiroCut</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carrosselImagens" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/foto.jpeg" class="d-block w-100" alt="Imagem 1">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/foto 2.jpeg" class="d-block w-100" alt="Imagem 2">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/foto 3.jpeg" class="d-block w-100" alt="Imagem 3">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrosselImagens" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrosselImagens" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1>Bem-vindo à HiroCut</h1>
+            <p class="lead">Transformamos suas ideias em vídeos incríveis!</p>
+        </div>
+    </header>
+
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Bem-vindo à HiroCut, onde as ideias ganham vida! Fundada em 2022, nossa missão é impulsionar talentos e ajudar pessoas a transformar suas paixões em conteúdo digital de alta qualidade. Sabemos que cada talento é único, e estamos aqui para dar voz ao seu!</p>
+            <p>Na HiroCut, acreditamos que o mundo precisa de mais criatividade e autenticidade. Nossa equipe é formada por profissionais apaixonados, com anos de experiência no campo da produção de conteúdo, que se dedicam a produzir vídeos cativantes, slogans memoráveis, comerciais impactantes e podcasts envolventes.</p>
+            <p>Estamos sempre à frente das tendências, utilizando as mais modernas técnicas de produção para garantir que sua mensagem se destaque nas plataformas digitais. Seja você um influenciador, um empresário ou um artista, estamos prontos para colaborar e transformar suas visões em realidade.</p>
+            <p>Junte-se a nós nessa jornada emocionante! Vamos criar juntos conteúdos que não só informam, mas também inspiram e entretêm. Na HiroCut, seu talento é a nossa paixão!</p>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>© 2023 HiroCut. Todos os direitos reservados.</p>
+        <a href="https://wa.me/5511992993443" class="text-white" target="_blank">
+            <i class="fab fa-whatsapp fa-2x"></i> Para Contatos
+        </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
